@@ -1,62 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página - Módulo I - Primeiros Passos com HTML</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Módulo 1 - Primeiros Passos com HTML</h1>
     <hr />
 
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+    <h2 id="indice">Índice</h2>
+    <p>
+      <strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os
+      tópicos que mais entendeu. Estes apenas são sugestões.
+    </p>
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+      <li><a href="#historia-computadores">História dos computadores</a></li>
+      <li>
+        <a href="#clients">O que são <i>Clients</i>?</a>
+      </li>
+      <li>
+        <a href="#servers">O que são <i>Servers</i>?</a>
+      </li>
+      <li>
+        <a href="#estrutura-html">Como é uma estrutura básica de um HTML?</a>
+      </li>
+      <li>
+        <a href="#diferenca-listas"
+          >Entendendo a diferença entre listas ordenadas e não ordenadas</a
+        >
+      </li>
+      <li><a href="#referencias">Links de referências</a></li>
     </ul>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="historia-computadores">História dos computadores</h2>
+    <small><a href="#indice">Índice</a></small>
+    <p>
+      A <strong>história da computação</strong> nasce com a necessidade de se
+      <i>acelerar os processos</i> afim de se obter os resultados em um menor
+      espaço de tempo. Necessidade que se deu a partir de alguns
+      <i>eventos marcantes da história da humanidade</i>, como a
+      <strong>Guerra Fria</strong> e a <strong>Segunda Guerra Mundial</strong>.
+    </p>
+    <p>
+      Por fim, deixo um
+      <a
+        href="https://escolaeducacao.com.br/historia-dos-computadores-linha-do-tempo-origem-e-evolucao/"
+        >link</a
+      >
+      para a página da Escola Educação com um melhor resumo da História da
+      Computação.
+    </p>
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="clients">O que são <i>Clients</i>?</h2>
+    <small><a href="#indice">Índice</a></small>
+    <p>
+      Em um âmbito geral, <strong>cliente</strong> é todo aquele que consome algo e para o contexto da internet não é diferente, os <strong>clientes</strong> são as máquinas e dispositivos que consomem a internet.<br>
+      Todo dispositivo que está conectado a uma rede, que faz uma requisição e recebe uma resposta.<br>
+      Para exemplificar, vamos observar o que acontece quando navegamos no <i><a href="https://www.google.com/">google</a></i>: Abrimos nosso navegador, digitamos o que estamos procurando e pressionamos enter, neste momento nossa máquina <strong>Client</strong> ira fazer uma requisição para um <a href="https://pt.wikipedia.org/wiki/Servidor"><strong>server</strong></a>, que ira retornar a página de busca.
+    </p>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="servers">O que são <i>Servers</i>?</h2>
+    <small><a href="#indice">Índice</a></small>
+    <p>
+      Os Servers são os locais remotos onde ficaram <i>"salvos"</i> os arquivos da nossa aplicação. Quando um usuário solicita acesso a nossa <strong>aplicação Web</strong>, existe uma comunicação entre o <strong>Client-side</strong> e <strong>Server-side</strong> para processar as informações ou ações do usuário. Em resumo, o Server é onde podemos salvar nossa <strong>aplicação Web, banco de dados, servidores de e-mail e outros mais.</strong>
+    </p>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="estrutura-basica-html">Como é uma estrutura básica de um HTML?</h2>
+    <small><a href="#indice">Índice</a></small>
+    <p>
+      <pre>
+         &lt;!DOCTYPE html&gt;
+         &lt;html lang="pt-br"&gt;
+         &lt;head &gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Document&lt;/title&gt;
+         &lt;/head&gt;
+         &lt;body&gt;
+         &lt;/body&gt;
+      </pre>
+   </p>
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+   <p>
+      <strong>&lt;!DOCTYPE html&gt;<br></strong> Está tag é repsonsável por dizer ao navegador que é um documento do tipo HTML.<br><br>
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
-    <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
-    </ul>
+      <strong>&lt;html lang="pt-br"&gt;<br></strong> Está é uma tag que marca todo o conteudo html, se observar bem, verá que ela começa com html e termina com /html, desta forma marcando todo conteúdo.<br><br>
 
+      <strong>&lt;head&gt;<br></strong> Está tag é responsável por abraçar toda a cabeça do site, aqui entram alguns metadados como o titulo da página, folhas de estilos e alguns outros arquivos e configurações.<br><br>
+
+      <strong>&lt;meta charset="UTF-8"&gt;<br></strong> Está é uma tag de configuração, aqui dizemos ao navegador qual é o formato de codificação de caracteres utilizado.<br><br>
+
+      <strong>&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;<br></strong> Tag de compatibilidade com internet explorer<br><br>
+
+      <strong>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;<br></strong> Está tag é responsavel por controlar a exibição do nosso site em dispositivos móveis.<br><br>
+
+      <strong>&lt;title>Document &lt;/title&gt;<br></strong> Esta tag é utilizada para marcar o titlo do site, o que aparece na aba do navegador.<br><br>
+
+      <strong>&lt;/head&gt;<br></strong> Tag de fechamento da cabeça do nosso html.<br><br>
+
+      <strong>&lt;body&gt;<br></strong> Está é tag que irá exibir nosso conteúdo, ela abraça nosos paragrafos imagens e todo tipo de midia.<br><br>
+
+      <strong>&lt;/body&gt;<br></strong> tag de fechamento do corpo do conteudo.<br><br>
+
+      <strong>&lt;/html&gt;<br></strong> tag de fechamento do documento html.
+   </p>
+
+   <h2 id="diferenca-ul-ol">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+   <small><a href="#indice">Índice</a></small>
+   <p>
+      As<strong> listas não numeradas </strong>são usadas para listar itens, sem se preocupar com sua sequência. Chamamos de lista de marcadores apenas.
+   </p>
+   <p>
+      As tags usadas para criar uma lista não ordenada são &lt;ul&gt; e &lt;li&gt;. A tag &lt;ul&gt; é usada para definir a lista e a tag &lt;li&gt; é usada para cada item da lista.
+   </p>
+   <br>
+   <p>
+      As <strong>listas ordenadas</strong> ou numeradas são usadas para indicar alguma sequência ou numeração
+   </p>
+   <p>
+      As tags usadas para criar uma lista não ordenada são &lt;ol&gt; e &lt;li&gt;. A tag &lt;ol&gt; é usada para definir a lista e a tag &lt;li&gt; é usada para cada item da lista.
+   </p>
+   <p>
+      <a href="https://www.luis.blog.br/listas-ordenadas-nao-ordenadas-e-de-definicao.html">Link de referência</a> para mais informações sobre listas ordenadas e não ordenadas
+   </p>
+   <h2 id="link-referencias">Links de referências</h2>
+   <small><a href="#indice">Índice</a></small>
+   <ul>
+      <li><a href="#">http://dio.me</a></li>
+      <li><a href="#">http://w3c.org</a></li>
+   </ul>
+   <hr>
 </body>
 </html>
